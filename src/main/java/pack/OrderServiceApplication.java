@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderServiceApplication {
 	@GetMapping("/")
 	public String hello() {
-		System.out.println("OrderService[무궁화꽃이피었습니다]");
-		return "OrderService[무궁화꽃이피었습니다]";
+		System.out.println("OrderService[복숭아꽃이피었습니다]");
+		return "OrderService[복숭아꽃이피었습니다]";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(OrderServiceApplication.class, args);
